@@ -15,6 +15,6 @@ int main()
     cout << endl << "Dzielenie pizzy..." << endl;
     int for_organizator = pizza_slices % people;
     int for_others = pizza_slices / (pizza_slices - (pizza_slices % people));
-    cout << "Ilosc kawalkow dla uczestnikow: " << for_others << endl << " Dla organizatora: " << for_organizator;
+    cout << "Ilosc kawalkow dla kazdego uczestnika: " << for_others << endl << " Liczba dodatkowych kawalkow dla organizatora: " << for_organizator;
 }
 
